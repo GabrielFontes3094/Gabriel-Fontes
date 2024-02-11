@@ -1,0 +1,20 @@
+@media only screen and (max-width: 1040px) {
+    /* Ajuste o tamanho da caixa e da imagem do header */
+    #container-top{
+        height: 100%;
+    }
+    
+    .boxBotao{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .box1 h1{
+        text-align: center;
+        flex-wrap:wrap ;
+    }
+
+    ::-webkit-scrollbar {
+        width: 4px;
+    }
+}

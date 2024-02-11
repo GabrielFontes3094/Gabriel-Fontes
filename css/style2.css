@@ -1,0 +1,92 @@
+:root{
+    --colorPurple: #9800ce;
+    --colorGrey: rgb(87,87,87);
+    --colorBlack: #130e17;
+    --colorWhite: #E6E6E6;
+    --fundoTop: hsl(0, 0%, 5%);
+
+}
+
+/* container mid */
+#container-mid{
+    color: #aaaaaa;
+    height: 100%;
+    position: relative;
+    padding: 50px;
+    margin-top: 5%;
+}
+
+/* letreiro */
+#container-mid span{
+    animation-name: brilho;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+#container-mid span:nth-of-type(2){
+    animation-delay: 0.25s;
+}
+#container-mid span:nth-of-type(3){
+    animation-delay: 0.50s;
+}
+#container-mid span:nth-of-type(4){
+    animation-delay: 0.75s;
+}
+#container-mid span:nth-of-type(5){
+    animation-delay: 1s;
+}
+#container-mid span:nth-of-type(6){
+    animation-delay: 1.25s;
+}
+#container-mid span:nth-of-type(7){
+    animation-delay: 1.50s;
+}
+#container-mid span:nth-of-type(8){
+    animation-delay: 1.75s;
+}
+
+
+@keyframes brilho {
+    0% {
+        color: #fff;
+        text-shadow: 0 0 12px var(--colorPurple),
+        0 0 50px var(--colorPurple),
+        0 0 100px var(--colorPurple);
+    }
+    10%, 90%{
+        color: var(--colorWhite);
+        text-shadow: none;
+    }
+}
+
+#letreiro{
+    font-size: 50px;
+    text-align: start;
+    height: auto;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.span1{
+    margin: 0 0 0 30px;
+}
+
+#container-mid hr {
+    border: none;
+    border-radius: 5px; 
+    height: 6px; 
+    background-color: #aaaaaa;
+    width: 408px;
+}
+
+.faixa{
+    background-color: #ffffff22;
+    padding: 70PX;
+}
+
+.wrapper{
+    background-color: hsla(0, 0%, 100%, 0.1);
+}
+
+  
